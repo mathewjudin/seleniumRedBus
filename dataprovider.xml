@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test  name="Test">
+  <parameter name="browser" value="edge"></parameter>
+  <parameter name="website" value="https://www.redbus.in/"></parameter>
+      <classes>
+      <class name="TestNG_RedBus_project.SearchPage_Data_provider"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

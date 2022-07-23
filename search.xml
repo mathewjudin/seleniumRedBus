@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test  name="Test">
+  <parameter name="browser" value="chrome"></parameter>
+  <parameter name="website" value="https://www.redbus.in/"></parameter>
+  <parameter name="source" value="coim"></parameter>
+  <parameter name="dest" value="chen"></parameter>
+  <parameter name="dinput" value="22-July-2022"></parameter>
+    <classes>
+      <class name="TestNG_RedBus_project.SearchPage_Testcase"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
